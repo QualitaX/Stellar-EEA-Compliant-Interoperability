@@ -1,6 +1,14 @@
 ## Overview
 It is a project for Stellar-Polygon asset bridge, which implements common infrastructure to support crosschain messages, and support one scenario of asset bridge with NFT issuing on Stellar testnet chain and swap on Polygon testnet chain.  
 To support the crosschain messages, EEA crosschain interoperability spec is followed with adaption on Stellar chain.
+This project has been developped in collaboration with Wanchain, with the support of a Stellar Community Fund grant: https://communityfund.stellar.org/dashboard/submissions/recgndGyFwfROKd6B
+
+## EEA DLT Interoperability Specification
+Link: https://entethalliance.org/specs/dlt-interop/ 
+
+## Case study
+Link: https://docsend.com/view/xvzrb7t4ip4wy8sd 
+
 ## Flows
 For the crosschain flows, generally three flows are supported for the scenarios:  
 - Seller on Stellar: Sell NFT on Stellar for Polygon buyer
